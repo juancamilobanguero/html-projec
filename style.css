@@ -1,0 +1,104 @@
+.navbar{
+    background-color: black;
+    height: 100px;
+}
+
+.div{
+    margin-top: 1rem;
+    background-color: blue;
+    width: 25rem;
+    height: 3rem;
+}
+
+.padin{
+    margin-top: 1rem;
+    background-color: blue;
+    width: 25rem;
+    height: 3rem;
+}
+
+.cla{
+    margin-top: 1rem;
+    background-color: blue;
+    width: 25rem;
+    height: 3rem;
+}
+
+.vv{
+    margin-top: 1rem;
+    background-color: blue;
+    width: 25rem;
+    height: 3rem; 
+}
+
+.footer{
+    margin-top: 10px;
+    background-color: crimson;
+    width: 100%;
+    height:8rem;
+}
+
+.cuadro{
+    margin-top: 2rem;
+    width: 230px;
+    height: 22rem;
+    background-color: chocolate;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:600px) {
+    .navbar{
+        background-color: black;
+        height: 50px;
+    }
+
+    .div{
+        margin-top: 2rem;
+        background-color: blue;
+        width: 556px;
+        height:3rem ;
+    }
+
+    .padin{
+        margin-top: 2rem;
+        background-color: blue;
+        width: 556px;
+        height:3rem ;
+    }
+
+    .cla{
+        margin-top: 2rem;
+        background-color: blue;
+        width: 556px;
+        height:3rem ;
+    }
+
+    .vv{
+        margin-top: 2rem;
+        background-color: blue;
+        width: 556px;
+        height:3rem ;
+    }
+
+    .footer{
+        margin-top: 10px;
+        background-color: crimson;
+        width: 558px;
+        height:4rem ;
+    }
+
+    .cuadro{
+        margin-top: 8rem;
+        width: 558px;
+        height:6rem ;
+        background-color: chocolate;
+    }
+
+    .main {
+        display: block;
+    }
+}
